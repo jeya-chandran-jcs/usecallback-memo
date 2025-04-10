@@ -13,4 +13,4 @@ const UseCallBackChild = ({ handleIncrease }) => {
   );
 };
 
-export default React.memo(UseCallBackChild); // ✅ This will now work because props may change
+export default React.memo(UseCallBackChild); 
